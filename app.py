@@ -6,7 +6,7 @@ import re
 import unicodedata
 from urllib.parse import quote, urljoin
 from io import StringIO
-
+from bs4 import BeautifulSoup
 
 # --- HUBS ---
 HUB_OPTIONS = [
