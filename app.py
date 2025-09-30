@@ -7,7 +7,7 @@ import unicodedata
 from urllib.parse import quote, urljoin
 from io import StringIO
 from bs4 import BeautifulSoup
-
+from datetime import date
 # --- HUBS ---
 HUB_OPTIONS = [
     "Sustainable Finance",
